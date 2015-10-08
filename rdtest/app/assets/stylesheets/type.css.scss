@@ -129,7 +129,7 @@ h6 {
   line-height: 1;
   margin-top: 0;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
-  color: #56656c;
+  color: #506e84;
     font-weight: 300;
 }
 
@@ -377,11 +377,11 @@ blockquote {
 
 
 .main-nav li a{
-    color: #333333;
+    color: #506e84;
     font-family: 'antoniolight', sans-serif !important;
     font-size: 18px;
     text-transform: uppercase;
-    
+    margin-top:5px;
     -webkit-transition: all 300ms ease-in;
     transition: all 300ms ease-in;
 }
