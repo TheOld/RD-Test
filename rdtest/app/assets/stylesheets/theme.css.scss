@@ -137,7 +137,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .company-logo-holder{line-height: 130px; }
 .company-logo-holder img{vertical-align: middle;margin-left:30px;margin-bottom: 5px;}
 
-.before-bg{background-color: #506e84; /*rgb(50,132,154);*/}
+.conquer-headline{color:#87D6F8;}
+.subheaderp
+{
+    margin-left: 0;
+    
+    width: 80%;}
+.before-bg{
+    height: 250px;
+    background-color: rgb(72, 109, 134); /*rgb(50,132,154);*/}
 
 .solution-bg
 {
@@ -205,9 +213,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .larger{
-    width:110px;
-    height:110px;
-     line-height:100px;
+    width:120px;
+    height:120px;
+     line-height:110px;
 }
 
 .circle:hover{

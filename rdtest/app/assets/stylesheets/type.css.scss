@@ -308,6 +308,8 @@ blockquote {
     border-left: none;
 }
 
+.text-indent-0{text-indent: 0;}
+
 .typl8-pull-quote {
   position: relative !important;
   padding: 1em !important;
@@ -338,7 +340,7 @@ blockquote {
   padding:15px;
   margin:1em 0 3em;
   
-    background-color: rgb(73,171,198);
+    background-color: rgb(157, 171, 180);
   
 }
 
@@ -349,7 +351,7 @@ blockquote {
   left:50px; /* controls horizontal position */
   border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
   border-style:solid;
-  border-color:rgb(73,171,198) transparent;
+  border-color: rgb(157, 171, 180) transparent;
   /* reduce the damage in FF3.0 */
   display:block;
   width:0;
@@ -358,7 +360,7 @@ blockquote {
 
 .quote-author
 {
-    background-color: rgb(0,115,192);
+    background-color: rgb(97, 103, 113);
     padding: 15px 15px 5px 10px;
     margin-top: -53px;
     z-index: 0;
@@ -368,9 +370,9 @@ blockquote {
 .uppercase{
     text-transform: uppercase;
 }
-
+.font-lighter{font-weight: 200 !important;}
 .font-bold{
-    font-weight: bold!important;
+    font-weight: bold !important;
 }
 
 //MainMenu Style
@@ -393,13 +395,16 @@ blockquote {
 
 }
 
-.line-height{line-height: 1.35px !important;}
+.line-height{line-height: 1.23 !important;}
+
+.line-heigh-1p2{line-height: 1.2 !important;}
 
 //font-sizes
 .font-size-14{font-size:14px !important;}
 .font-size-16{font-size:16px !important;}
 .font-size-18{font-size:18px !important;}
 .font-size-20{font-size:20px !important;}
+.font-size-21pt{font-size: 21pt !important;}
 .font-size-22{font-size:22px !important;}
 .font-size-24{font-size:24px !important;}
 .font-size-26{font-size:26px !important;}
