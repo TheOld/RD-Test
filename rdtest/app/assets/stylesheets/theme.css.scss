@@ -1,0 +1,222 @@
+
+$white-100: #ffffff;
+$header-accent:#475556;
+$dark-blue:#13042b; 
+$accent:#f24b4b;
+
+$menu-item:#8b9093;
+
+$fadded-accent:rgba(242, 75, 75, 0.5);
+$blue-accent:#348990;
+$alt-bg:rgb(250,250,250);
+
+
+body{
+    background-color: $white-100 !important;
+}
+
+.jumbotron {
+  background: $white-100;
+  color: jumbotron-header;
+  padding-bottom: 80px;
+
+  .btn-primary {
+    background: lighten($accent, 20%);
+    border-color: lighten($accent, 20%);
+    &:hover {
+      background: lighten($accent, 15%);
+    }
+  }
+
+  p {
+    color: lighten($accent, 50%);
+    max-width: 75%;
+    margin: 1em auto 2em;
+  }
+
+  .navbar + & {
+    margin-top: -20px;
+  }
+
+  .lang-logo {
+    display: block;
+    background: $white-100;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 2px solid white;
+    img {
+      max-width: 100%;
+    }
+  }
+
+}
+
+//Cabeçalho
+
+header{
+    background-color: transparent;
+    height: 60px;
+    
+    
+}
+
+.rd-station-logo{
+    color: $accent;
+    
+}
+
+
+
+.card{
+    -webkit-transition: all 250ms ease-out;
+    transition:all 250ms ease-out;
+    -webkit-transform: translateZ(0) scale(1);
+    -moz-transform: translateZ(0) scale(1);
+    -ms-transform: translateZ(0) scale(1);
+    -o-transform: translateZ(0) scale(1);
+    transform: translateZ(0) scale(1);
+}
+
+.card:hover{
+    box-shadow: 0px 5px 10px #999999;
+}
+
+.segments li a 
+{
+    
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+.segments>li>a:hover {
+    color: #a5abab;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+.main-title{
+    margin:0 !important;
+    padding:80px 100px 60px 100px !important;
+    
+    height: 500px;
+    
+    /*background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #eef3f6 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eef3f6));
+background: -webkit-linear-gradient(top, #ffffff 0%,#eef3f6 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#eef3f6 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#eef3f6 100%);
+background: linear-gradient(to bottom, #ffffff 0%,#eef3f6 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eef3f6',GradientType=0 );*/
+    
+}
+
+.main-title h1{
+    text-align: center;
+    position: relative;
+    }
+
+.title-accent
+{
+    color:#506e84;
+}
+
+.company-container{
+    border-width:1px 0;
+    border-style: solid;
+    border-color: #CCC;
+}
+
+
+
+.company-logo-holder{line-height: 120px;}
+.company-logo-holder img{vertical-align: middle;margin-left:20px;}
+
+.before-bg{background-color: #506e84; /*rgb(50,132,154);*/}
+
+.solution-bg
+{
+    background-color: rgb(223,228,232);
+    padding-bottom: 40px;
+}
+
+.chart-bg{background-color: rgb(248, 248, 248);}
+.chart-bg img{max-width: 600px;}
+
+.result-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+
+
+.result-container-value{
+    font-size:72px;
+}
+
+.result-data{
+    max-width: 130px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.result-quote{background-color: rgb(0, 105, 192);}
+
+.segments-container{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.segments-container a:hover{text-decoration: none;}
+
+.target { clip-path: url(#c1); }
+
+.circle{
+    display:block;
+    
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    font-size:28px;
+    color:#506e84;
+    line-height:60px;
+    text-align:center;
+    text-decoration:none;
+    background:transparent;
+    border:1px solid #506e84;
+    -webkit-transition: all 250ms ease-out;
+    transition:all 250ms ease-out;
+    -webkit-transform: translateZ(0) scale(1);
+    -moz-transform: translateZ(0) scale(1);
+    -ms-transform: translateZ(0) scale(1);
+    -o-transform: translateZ(0) scale(1);
+    transform: translateZ(0) scale(1);
+}
+
+.larger{
+    width:120px;
+    height:120px;
+     line-height:110px;
+}
+
+.circle:hover{
+    color:#ccc;
+    text-decoration:none;
+    cursor: pointer;
+    -webkit-transform: translateZ(0) scale(1.1);
+    -moz-transform: translateZ(0) scale(1.1);
+    -ms-transform: translateZ(0) scale(1.1);
+    -o-transform: translateZ(0) scale(1.1);
+    transform: translateZ(0) scale(1.1);
+}
+

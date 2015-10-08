@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Rdtest</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <title>RD Desgn Test</title>
+    
+    <!-- Referência para a fonte Source Sans Pro (Google)-->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag  '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    
+<header class="padding-top-15 ">
+    
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <a class="logo bg-dark" href="/">
+              <h2 class="rd-station-logo"><b>RD</b> Station</h2>
+            </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <ul class="nav nav-pills navbar-right main-nav">
+            <li class=""><a href="/funcionalidades">Funcionalidades</a></li>
+            <li class=""><a href="/precos">Planos e Preços</a></li>
+            <li><a href="http://pages.rdstation.com.br/teste-gratuito-do-rd-station">Teste Grátis</a></li>
+            <li><a href="http://blog.rdstation.com.br/estudos-de-caso/">Estudos de caso</a></li>
+            <li><a href="http://blog.rdstation.com.br">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
 
 <%= yield %>
 
+    
+    
 </body>
 </html>
