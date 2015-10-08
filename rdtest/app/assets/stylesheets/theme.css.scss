@@ -129,11 +129,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     border-width:1px 0;
     border-style: solid;
     border-color: #CCC;
+    margin:0 50px;
 }
 
 
 
-.company-logo-holder{line-height: 120px;}
+.company-logo-holder{line-height: 130px;}
 .company-logo-holder img{vertical-align: middle;margin-left:20px;}
 
 .before-bg{background-color: #506e84; /*rgb(50,132,154);*/}
@@ -193,7 +194,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     text-align:center;
     text-decoration:none;
     background:transparent;
-    border:1px solid #506e84;
+    border:1px solid #cccccc;
     -webkit-transition: all 250ms ease-out;
     transition:all 250ms ease-out;
     -webkit-transform: translateZ(0) scale(1);
